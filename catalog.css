@@ -5,7 +5,7 @@ body {
     background-image: url('background.jpg'); /* Background image */
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: palevioletred;
+    background-color: rgb(229, 155, 216);
 }
 .catalog-header {
     background-color: #333;
