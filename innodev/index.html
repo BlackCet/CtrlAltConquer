@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -18,18 +19,18 @@
         <div class="container">
 
             <div class="navbar">
-                <div class="logo"> <img src="image1.png" width="125px">
+                <div class="logo"> <img src="logo.png" width="125px">
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">PRODUCTS</a></li>
+                        <li><a class="active">HOME</a></li>
+                        <li><a href="C:\Users\DELL\Documents\GitHub\CtrlAltConquer\Catalogue\a.html">PRODUCTS</a></li>
                         <li><a href="">ABOUT US</a></li>
                         <li><a href="">CONTACT</a></li>
-                        <li><a href="">ACCOUNT</a></li>
+                        <li><a href="C:\Users\DELL\Documents\GitHub\CtrlAltConquer\second\login.html">ACCOUNT</a></li>
                     </ul>
                 </nav>
-                <img src="icons8-cart-48.png" width="30px" height="30px">
+                <img src="cart.png" width="30px" height="30px">
             </div>
 
 
@@ -38,51 +39,52 @@
                     <h1>Deals that steal,<br> styles that reveal.</h1>
                     <p>Fashion finds for all minds.<br>We dare you not to find something you love.
                     </p>
-                    <a href="" class="btn"> Explore Now &#8594; </a>
+                    <!-- <a href="" class="btn" onclick="scrollToElement()"> Explore Now &#8594; </a> -->
+                    <button onclick="scrollToElement()">Explore Now &#8594;</button>
                 </div>
                 <div class="col-2">
-                    <img src="young-woman-beautiful-yellow-dress.jpg">
-            </div>
-            <!------featured categories------>
-            <div class=" categories">
-                <div class="small-container">
+                    <img src="1.jpg">
+                </div>
+                <!------featured categories------>
+                <div class=" categories" id="features">
+                    <div class="small-container">
 
-                </div>
-                <div class="row"> 
-                    <div class="col-3"> 
-                        <img src="beautiful-young-woman-wearing-fashionable-clothes-walking-down-street.jpg">
                     </div>
-                    <div class="col-3">
-                        <img src="beautiful-fashion-woman-violet-long-dress-hairstyle-with-pigtails-design-poses-studio.jpg">
-                    </div>
-                    <div class="col-3">
-                        <img src="portrait-fashionable-girl-red-evening-dress-posed-background-mirror-window-modern-building.jpg">
-                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="2.jpg">
+                        </div>
+                        <div class="col-3">
+                            <img src="3.jpg">
+                        </div>
+                        <div class="col-3">
+                            <img src="4.jpg">
+                        </div>
 
-                </div>
-            </div>
-        </div>
-        <!--------offer-------->
-        <div class="offer">
-            <div class="small container">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="graphic-tshirt-trendy-design-mockup-presented-wooden-hanger.jpg" class="offer-image">
-                    </div>
-                    <div class="col-2">
-                        <p>Exclusively Available at Fashiony</p>
-                        <h1>A t-shirt with an abstract design that uses vibrant colors and geometric shapes.</h1>
-                    <small> Eye-catching graphics with a touch of humor or personality.
-                        Designs that spark conversation and individuality.
-                        Oversized fits, vintage aesthetics, and a touch of rebellion.
-                         Simple yet impactful designs that let the quality of the print shine.
-                         Eco-friendly materials and ethical production resonate with conscious consumers.
-                        </small>
-                <a href="" class="btn" >Buy Now &#8594;></a>
                     </div>
                 </div>
             </div>
-        </div>
-        </body>
+            <!--------offer-------->
+            <div class="offer">
+                <div class="small container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="5.jpg" class="offer-image">
+                        </div>
+                        <div class="col-2">
+                            <p>Exclusively Available at Fashiony</p>
+                            <h1>A t-shirt with an abstract design that uses vibrant colors and geometric shapes.</h1>
+                            <small> Eye-catching graphics with a touch of humor or personality.
+                                Designs that spark conversation and individuality.
+                                Oversized fits, vintage aesthetics, and a touch of rebellion.
+                                Simple yet impactful designs that let the quality of the print shine.
+                                Eco-friendly materials and ethical production resonate with conscious consumers. <br>
+                            </small>
+                            <a href="" class="btn">Buy Now &#8594;></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
 
 </html>

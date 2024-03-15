@@ -41,3 +41,11 @@ var popup=document.getElementById("popup");
 function CloseSlide(){
     popup.classList.remove("open-slide");
 }
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     var button = document.querySelector('.btn');
+  
+//     button.addEventListener('click', function() {
+//       window.location.href = 'C:\Users\DELL\Documents\GitHub\CtrlAltConquer\second\login.html'; 
+//     });
+//   });
