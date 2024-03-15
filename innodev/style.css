@@ -94,7 +94,7 @@ p{
     transition: background 0.5s;
 }
 .header{
-    background: radial-gradient(#fff,#ff6d);
+    background: radial-gradient(#f7b2a5,#db8f8d);
 }
 .header .row{
     margin-top: 70px ;
@@ -120,7 +120,7 @@ p{
 }
 /*----------offer-------*/
 .offer{
-    background: radial-gradient(#fff,#ff6d);
+    background: radial-gradient(#ffbec2,#fce3e2);
     margin-top: 80px;
     padding: 30px 0;
 }
