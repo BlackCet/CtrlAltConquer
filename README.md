@@ -27,5 +27,7 @@ Payment Gateway Integration
 HTML<br>
 CSS<br>
 Bootstrap<br>
-JavaScript
+JavaScript <br>
+  PHP <br>
+  SQL
 </p>
