@@ -1,135 +1,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-*{ 
-    margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-body{
-    .ubuntu-medium {
+
+body {
+    /* .ubuntu-medium {
         font-family: "Ubuntu", sans-serif;
         font-weight: 500;
         font-style: normal;
-      }     
-}
-.navbar{
-    display: flex;
-    align-items: center;
-    padding : 20px;
-}
-nav{
-    flex: 1;
-    text-align:right;
+      }      */
 }
 
-nav ul{
-    display: inline-block;
-    list-style-type: none;
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
-nav ul li{
-    display: inline-block;
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    /* display: inline-block;
+    list-style-type: none; */
+    display: flex;
+    justify-content:end;
+    align-items:center;
+}
+
+nav ul li {
+    /* display: inline-block;
     margin-right: 20px;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 10px; */
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 10px;
 }
-a{ 
-    text-decoration: none ;
+
+nav ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #000000;
+    border-radius:20px;
+}
+
+a {
+    text-decoration: none;
     color: #555;
     font-family: "Ubuntu", sans-serif;
     font-size: 1.2em;
     font-weight: 500;
 }
 
-h1{
+nav ul li a:hover,
+nav ul li a.active {
+    background: #A0A;
+    color: #fff;
+    /* border-radius: 25px;
+    /* padding: 10px; */
+    /* width: 200px;
+    height: 100px; */ 
+}
+
+h1 {
     color: black;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
 }
 
 
-p{
+p {
     color: #555;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
 
 }
 
-.container{
-    max-width: 1300px ;
+.container {
+    max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
 
 }
-.row{
+
+.row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.col-2{
+
+.col-2 {
     flex-basis: 50%;
     min-width: 300px;
 
 }
-.col-2 img{
+
+.col-2 img {
     max-width: 90%;
-    padding:50px 0;
+    padding: 50px 0;
 }
-.col-2 h1{
+
+.col-2 h1 {
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
 }
-button{
+
+button {
     display: inline-block;
-    background: #ff523b;
+    background: #A0A;
     color: #fff;
-    padding:8px 30px;
+    padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
     font-size: 1.3em;
 }
-button:hover{
-    background:#563434;
-    transition: background 0.5s;
+
+button:hover {
+    background: #563434;
+    transition: 0.5s;
     border-radius: 30px;
 }
-.header{
-    background: radial-gradient(#f7a9f0,#e59bd8);
+
+.header {
+    background: radial-gradient(#f7a9f0, #e59bd8);
 }
-.header .row{
-    margin-top: 70px ;
+
+.header .row {
+    margin-top: 70px;
 }
-.categories{
-    margin:70px 0;
+
+.categories {
+    margin: 70px 0;
 
 }
-.col-3{
+
+.col-3 {
     flex-basis: 30%;
     min-width: 250px;
-    margin-bottom:30px
+    margin-bottom: 30px
 }
-.col-3 img{
-    width:100%;
+
+.col-3 img {
+    width: 100%;
 }
-.small-container{
+
+.small-container {
     display: flex;
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
-    padding-right:25px ;
+    padding-right: 25px;
 }
+
 /*----------offer-------*/
-.offer{
-    background: radial-gradient(#ffbec2,#fce3e2);
+.offer {
+    background: radial-gradient(#ffbec2, #fce3e2);
     margin-top: 80px;
     padding: 30px 0;
 }
-.col-2 .offer-img{
+
+.col-2 .offer-img {
     max-width: 50px;
 
 }
-small{
-    color:#555;
+
+small {
+    color: #555;
 }
+
+.Site h1 {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 6em;
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    line-height: 1em;
+    text-align: justify;
+    padding-bottom: 2em;
+}
+
+.Site h1:hover {
+    animation: jump 1s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

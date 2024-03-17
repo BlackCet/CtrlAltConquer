@@ -23,8 +23,9 @@ if($result)
 
         if($user_data['Pass']== $Pass)
         {
-            header("location:a.html");
+            header('location: a.html');
             die;
+
         }
     }
 }
