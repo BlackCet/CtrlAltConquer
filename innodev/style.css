@@ -9,17 +9,18 @@
 }
 
 body {
-    /* .ubuntu-medium {
+    .ubuntu-medium {
         font-family: "Ubuntu", sans-serif;
         font-weight: 500;
         font-style: normal;
-      }      */
+      }     
 }
-
-.navbar {
+.navbar{
     display: flex;
     align-items: center;
     padding: 20px;
+
+
 }
 
 nav {
@@ -28,8 +29,7 @@ nav {
 }
 
 nav ul {
-    /* display: inline-block;
-    list-style-type: none; */
+    
     display: flex;
     justify-content:end;
     align-items:center;
