@@ -1,20 +1,17 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Fallback color */
-    background-image: url('background.jpg'); /* Background image */
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-color: #f0f0f0; Fallback color */
+    /* background-image: url('background.jpg'); Background image */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
     background-color: rgb(229, 155, 216);
 }
-
 
 .navbar{
     display: flex;
     align-items: center;
     padding: 20px;
-
-
 }
 
 nav {
